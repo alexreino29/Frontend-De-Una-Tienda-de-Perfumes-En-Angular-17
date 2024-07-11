@@ -1,6 +1,6 @@
 img{
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 50%;
     display: block;
     margin: 0 auto;
     margin-top: 26px;
@@ -10,6 +10,7 @@ img{
 
 .container{
     text-align: center;
+    padding: 20px;
 }
 
 p {
