@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fragancias AD</a>
+    <a class="navbar-brand" href="#">Fragancias A&D</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,8 +30,9 @@
 
     <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
         <a class="hover:text-gray-900" href="#">Inicio</a>
-        <a class="hover:text-gray-900" href="#">Perfumes</a>
+        <a class="hover:text-gray-900" routerLink="perfumes" [ngClass]="{active: menu == 'perfumes'}" (click)="Opcion('perfumes')" >Perfumes</a>
         <a class="hover:text-gray-900" href="#">Contacto</a>
+      
         
     </nav>
 
